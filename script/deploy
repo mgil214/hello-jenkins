@@ -1,9 +1,3 @@
-#!/bin/sh
+#!/bin/bash
  
-ssh app@162.243.142.1 <<EOF
-  cd ~/hello-jenkins
-  git pull
-  npm install --production
-  forever restartall
-  exit
-EOF
+ssh app@localhost 'cd ~/hello-jenkins &&  git pull && npm install --production && forever restartall'
