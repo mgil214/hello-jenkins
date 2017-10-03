@@ -1,2 +1,2 @@
 # hello-jenkins
-Jenkins Test Java App
+Jenkins Test JS App
